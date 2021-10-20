@@ -1,0 +1,79 @@
+/*
+=============== 
+Fonts
+===============
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+
+/*
+=============== 
+COMMON
+===============
+*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+
+/*
+=============== 
+MAIN
+===============
+*/
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1F5F8;
+}
+
+main .container {
+  text-align: center;
+}
+main h1 {
+  font-size: 64px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 64px;
+}
+main #value {
+  font-size: 96px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 144px;
+}
+main .button-container {
+  line-height: 24px;
+  width: 100%;
+}
+main .button-container .btn{
+  font-size: 14px;
+  font-family: Arial;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid #222;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 6px 12px 6px 12px;
+  background-color: #F1F5F8;
+  cursor: pointer;
+  transition: all .2s linear;
+}
+main .button-container .btn:hover {
+  background-color: #222;
+  color: #fff;
+}
